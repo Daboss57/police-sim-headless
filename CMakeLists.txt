@@ -7,6 +7,8 @@ project(city-response-sim
 
 add_executable(city_response_sim
     src/main.cpp
+    src/map/RoadGraph.cpp
+    src/map/ShortestPath.cpp
     src/util/Random.cpp
 )
 
